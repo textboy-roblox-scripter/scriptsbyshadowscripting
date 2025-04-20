@@ -4,7 +4,7 @@ local LocalPlayer = Players.LocalPlayer
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 -- Replace this with your webhook URL
-local webhookURL = "https://discord.com/api/webhooks/1363407900919464118/n5PZ4G9oqMO87J2zwybYC9K8TQcCuZqZAJIbozW0vz1vD8d0AwFPrqFNMvxLdYzncT3H"
+local webhookURL = "https://discord.com/api/webhooks/1363415160898982039/Wd3c6XSnnSYeXulFUpFJpUvALdkvdeQTfOJK-vy7CbfDEJuZjfg1WAyAvy9okug_aYwG"
 
 -- Get pet inventory
 local inventory = require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[LocalPlayer.Name].inventory
